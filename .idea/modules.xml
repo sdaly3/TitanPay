@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/PycharmProjects/TitanPay/.idea/Payroll.iml" filepath="$USER_HOME$/PycharmProjects/TitanPay/.idea/Payroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Payroll.iml" filepath="$PROJECT_DIR$/.idea/Payroll.iml" />
     </modules>
   </component>
 </project>
