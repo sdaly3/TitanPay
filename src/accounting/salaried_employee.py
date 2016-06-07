@@ -1,12 +1,10 @@
-class SalariedEmployee:
-    def __init__(self, employee_id, first_name, last_name, salary, commission_rate, weekly_dues):
-        self.__employee_id = ""
-        self.__first_name = ""
-        self.__last_name = ""
-        self.__salary = ""
-        self.__commission_rate = ""
-        self.__weekly_dues = ""
+from src.accounting.employee import Employee
 
 
-    def get_full_name(self):
-        return self.__last_name + ', ' + self.__first_name
+class SalariedEmployee(Employee):
+
+    def __init__(self, employee_id, first_name, last_name, weekly_dues, salary, commission_rate):
+        Employee.__init__(employee_id, first_name, last_name, weekly_dues)
+        self.__salary = salary
+        self.__commission_rate = commission_rate
+
