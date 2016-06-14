@@ -5,17 +5,16 @@ class TimeCard:
         self.__start_time = start_time
         self.__end_time = end_time
 
-    def calculate_daily_pay(self, rate, clock_in, clock_out, hours):
-        rate = 15.00
-        clock_in = self.__start_time.datetime.time(8, 00, 00)/3600
-        clock_out = self.__end_time.datetime.time(5, 00, 00)/3600
-        hours = clock_in - clock_out
-        return sum(hours * 1.5)
+    def calculate_daily_pay(self, rate):
+        hours = self.__start_time - self.__end_time
+        if hours > 8:
+            regular_pay = rate * 8
+            overtime = (rate * 1.5) * (hours - 8)
+            return regular_pay + overtime
+        else:
+            regular = rate * hours
+            return regular
 
-# Professor Tillman - Am I on the right track?
 
-#   if hours > 8:
-#      overtime = hours - 8
-#     return sum(overtime * (rate * 1.5))
 
 
