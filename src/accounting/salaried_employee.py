@@ -10,6 +10,14 @@ class SalariedEmployee(Employee, Receipt):
         self.__commission_rate = commission_rate
         self.__receipts = []
 
-    def make_sale(self, double_amt):
+    def make_sale(self):
         sale = Receipt("6/15/2016", 25.00)
         self.__receipts.append(sale)
+
+    def pay(self, start_date, end_date):
+        total_pay = 0
+        for sale in self.__receipts:
+            if sale.get_date() > start_date and sale.get_date < end_date:
+                total_pay += self.__salary + (self.__sale_amt * self.__commission_rate)
+
+                self.get_payment_method(self).pay(total_pay)

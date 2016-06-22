@@ -10,3 +10,5 @@ class Employee:
     def get_full_name(self):
         return self.__last_name + ", " + self.__first_name
 
+    def get_payment_method(self):
+        return self.__pay_method

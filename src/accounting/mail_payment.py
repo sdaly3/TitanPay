@@ -1,11 +1,12 @@
-from src.accounting.employee import Employee
-from src.accounting.address import Address
+from src.accounting.payment_method import PaymentMethod
 
 
-class MailPayment(Employee, Address):
+class MailPayment(PaymentMethod):
 
-    def __init__(self, amt):
-        self.__amt = amt
+    def __init__(self, emp, name, address):
+        PaymentMethod.__init__(emp)
+        self.__name = name
+        self.__address = address
 
-    def pay(self):
-        print("Mailing a check to", self.get_full_name(), "for", self.__amt, "to", self.get_full_address())
+    def pay(self, amt):
+        print("Mailing a check to", self.__name.get_full_name(), "for", amt, "to", self.__address.get_full_address())

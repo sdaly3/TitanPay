@@ -1,10 +1,11 @@
-from src.accounting.employee import Employee
+from src.accounting.payment_method import PaymentMethod
 
 
-class PickUpPayment(Employee):
+class PickUpPayment(PaymentMethod):
 
-    def __init__(self, amt):
-        self.__amt = amt
+    def __init__(self, emp, address):
+        PaymentMethod.__init__(emp)
+        self.__address = address
 
-    def pay(self):
-        print("A check for", self.__amt, "is waiting for", self.get_full_name(), "at the PostMaster")
+    def pay(self, amt):
+        print("A check for", amt, "is waiting for", self.__address.get_full_name(), "at the PostMaster")
