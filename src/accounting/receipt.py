@@ -1,4 +1,11 @@
+from src.accounting import csv
+
 class Receipt:
+
+    with open('receipts.csv') as file:
+        rec = csv.DictReader(file)
+        for row in rec:
+            print(row)
 
     def __init__(self, date, sale_amt):
         self.__date = date

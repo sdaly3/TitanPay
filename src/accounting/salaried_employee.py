@@ -1,8 +1,13 @@
 from src.accounting.employee import Employee
 from src.accounting.receipt import Receipt
-
+from src.accounting import csv
 
 class SalariedEmployee(Employee, Receipt):
+
+    with open('salaried_employees.csv') as file:
+        s_emp = csv.DictReader(file)
+        for row in s_emp:
+            print(row)
 
     def __init__(self, employee_id, first_name, last_name, weekly_dues, salary, commission_rate, pay_method):
         Employee.__init__(employee_id, first_name, last_name, weekly_dues, pay_method)

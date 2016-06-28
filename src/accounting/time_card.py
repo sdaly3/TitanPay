@@ -1,7 +1,11 @@
 from src.datetime import datetime, date
-
+from src.accounting import csv
 
 class TimeCard:
+    with open('timecards.csv') as file:
+        t_card = csv.DictReader(file)
+        for row in t_card:
+            print(row)
 
     def __init__(self, date):
         self.__date = date
