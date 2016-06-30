@@ -4,43 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6f29a4-072e-493a-9741-464096784d3a" name="Default" comment="Assignment 5B">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/_fix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/colorchooser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/commondialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/dialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/dnd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/filedialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/font.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/messagebox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/scrolledtext.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/simpledialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/runtktests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/support.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_font.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_geometry_managers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_images.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_loadtk.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_misc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_text.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_variables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_tkinter/test_widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_ttk/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_ttk/test_extensions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_ttk/test_functions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_ttk/test_style.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/test_ttk/test_widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/test/widget_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/tix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/accounting/tkinter/ttk.py" />
+    <list default="true" id="0e6f29a4-072e-493a-9741-464096784d3a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/accounting/hourly_employee.py" afterPath="$PROJECT_DIR$/src/accounting/hourly_employee.py" />
     </list>
     <ignored path="TitanDev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hourly_employee.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hourly_employee.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/accounting/hourly_employee.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -83,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/accounting/menu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -607,14 +572,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467083855717</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Assignment 5B Resubmission">
+      <created>1467256691958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1467256691958</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="183" y="25" width="886" height="653" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -650,7 +622,8 @@
     <MESSAGE value="Module 4 Submission" />
     <MESSAGE value="Module 4 Resubmission" />
     <MESSAGE value="Assignment 5B" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5B" />
+    <MESSAGE value="Assignment 5B Resubmission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5B Resubmission" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -783,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/accounting/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/accounting/process_payment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -807,6 +770,16 @@
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/accounting/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
