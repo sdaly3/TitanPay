@@ -1,14 +1,8 @@
 from src.accounting.employee import Employee
 from src.accounting.time_card import TimeCard
 from src.datetime import datetime
-from src.accounting import csv
 
 class HourlyEmployee(Employee, TimeCard):
-
-    with open('hourly_employees.csv') as file:
-        hr_emp = csv.DictReader(file)
-        for row in hr_emp:
-            print(row)
 
     def __init__(self, employee_id, first_name, last_name, weekly_dues, hourly_rate, pay_method):
         Employee.__init__(self, employee_id, first_name, last_name, weekly_dues, pay_method)
