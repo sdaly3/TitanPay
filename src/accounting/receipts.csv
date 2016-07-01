@@ -1,0 +1,44 @@
+EmployeeId,FirstName,Item,Units,Unit Cost,Total
+1,Jones,Pencil,95, 1.99 , 189.05 
+2,Kivell,Binder,50, 19.99 , 999.50 
+3,Jardine,Pencil,36, 4.99 , 179.64 
+4,Gill,Pen,27, 19.99 , 539.73 
+5,Sorvino,Pencil,56, 2.99 , 167.44 
+1,Jones,Binder,60, 4.99 , 299.40 
+7,Andrews,Pencil,75, 1.99 , 149.25 
+3,Jardine,Pencil,90, 4.99 , 449.10 
+9,Thompson,Pencil,32, 1.99 , 63.68 
+1,Jones,Binder,60, 8.99 , 539.40 
+11,Morgan,Pencil,90, 4.99 , 449.10 
+12,Howard,Binder,29, 1.99 , 57.71 
+13,Parent,Binder,81, 19.99 ," 1,619.19 "
+1,Jones,Pencil,35, 4.99 , 174.65 
+15,Smith,Desk,2, 125.00 , 250.00 
+1,Jones,Pen Set,16, 15.99 , 255.84 
+11,Morgan,Binder,28, 8.99 , 251.72 
+1,Jones,Pen,64, 8.99 , 575.36 
+13,Parent,Pen,15, 19.99 , 299.85 
+2,Kivell,Pen Set,96, 4.99 , 479.04 
+15,Smith,Pencil,67, 1.29 , 86.43 
+13,Parent,Pen Set,74, 15.99 ," 1,183.26 "
+4,Gill,Binder,46, 8.99 , 413.54 
+15,Smith,Binder,87, 15.00 ," 1,305.00 "
+1,Jones,Binder,4, 4.99 , 19.96 
+5,Sorvino,Binder,7, 19.99 , 139.93 
+3,Jardine,Pen Set,50, 4.99 , 249.50 
+7,Andrews,Pencil,66, 1.99 , 131.34 
+12,Howard,Pen,96, 4.99 , 479.04 
+4,Gill,Pencil,53, 1.29 , 68.37 
+4,Gill,Binder,80, 8.99 , 719.20 
+2,Kivell,Desk,5, 125.00 , 625.00 
+1,Jones,Pen Set,62, 4.99 , 309.38 
+11,Morgan,Pen Set,55, 12.49 , 686.95 
+2,Kivell,Pen Set,42, 23.95 ," 1,005.90 "
+5,Sorvino,Desk,3, 275.00 , 825.00 
+4,Gill,Pencil,7, 1.29 , 9.03 
+5,Sorvino,Pen,76, 1.99 , 151.24 
+9,Thompson,Binder,57, 19.99 ," 1,139.43 "
+7,Andrews,Pencil,14, 1.29 , 18.06 
+3,Jardine,Binder,11, 4.99 , 54.89 
+3,Jardine,Binder,94, 19.99 ," 1,879.06 "
+7,Andrews,Binder,28, 4.99 , 139.72 
