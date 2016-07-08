@@ -1,6 +1,7 @@
 from src.datetime import datetime, date
 from src.accounting import csv
 
+
 class TimeCard:
 
     def __init__(self, start_time, end_time, date):
