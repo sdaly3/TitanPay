@@ -1,6 +1,6 @@
 from src.accounting.employee import Employee
 from src.accounting.time_card import TimeCard
-from src.datetime import datetime
+
 
 class HourlyEmployee(Employee, TimeCard):
 
@@ -10,13 +10,14 @@ class HourlyEmployee(Employee, TimeCard):
         self.__time_cards = []
 
     def clock_in(self):
-        tc = TimeCard(datetime.today())
+        tc = TimeCard(date='1/1/16', start_time='800')
         self.__time_cards.append(tc)
 
     def clock_out(self):
+        et = TimeCard(end_time='900')
         for tc in self.__time_cards:
-            if tc.get_date() == datetime.today():
-                tc.clock_out()
+            self.__time_cards.append(et)
+            print(self.__time_cards)
 
     def pay(self, start_date, end_date):
         total_pay = 0
@@ -24,3 +25,4 @@ class HourlyEmployee(Employee, TimeCard):
             if tc.get_date() > start_date and tc.get_date < end_date:
                 total_pay += tc.calculate_daily_pay(self.__hourly_rate)
                 self.get_payment_method(self).pay(total_pay)
+

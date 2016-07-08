@@ -2,22 +2,11 @@ from src.datetime import datetime, date
 from src.accounting import csv
 
 class TimeCard:
-    with open('timecards.csv') as file:
-        t_card = csv.DictReader(file)
-        for row in t_card:
-            print(row)
 
-    def __init__(self, date):
+    def __init__(self, start_time, end_time, date):
+        self.__start_time = start_time
+        self.__end_time = end_time
         self.__date = date
-
-    def clock_in(self):
-        self.__start_time = datetime.now().time()
-
-    def clock_out(self):
-        self.__end_time = datetime.now().time()
-
-    def get_date(self):
-        return date
 
     def calculate_daily_pay(self, rate):
         hours = self.__start_time - self.__end_time
